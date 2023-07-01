@@ -5,17 +5,67 @@
     .features .feat-ul {
         max-width: 396px;
     }
+    .features-ul {
+        margin: 96px 16px;
+    }
+    .team-ul {
+        max-width: 264px;
+    }
+    .team-participant {
+        justify-content: center;
+        gap: 72px 0;
+    }
 }
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 744px;
+        width: 100%;
+        max-width: 768px;
+       padding: 0 16px;
+       margin: 0 auto;
     }
     .features .feat-ul {
         max-width: unset;
         width: calc((100% - 24px) / 2);
-        gap: 72px 24px;
+        
+    }
+    .features-ul {
+        width: 100%;
+        margin: 96px 0;
     }
     .features-title {
         text-align: left;
+    }
+    .team-participant {
+        gap: 64px 24px;
+        max-width: unset;
+    }
+
+}
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 100%;
+        max-width: 1160px;
+       margin: 0 auto;
+    }
+    .features .feat-ul {
+        max-width: unset;
+        width: calc((100% - 72px) / 4);
+        
+    }
+    .features-ul {
+        width: 1128px;
+        margin: 120px 0;
+    }
+    .features-title {
+        text-align: left;
+    }
+    .feat-icons {
+        display: flex;
+    }
+    .team-participant {
+        gap: 24px;
+        max-width: unset;
+        
+        
     }
 }
