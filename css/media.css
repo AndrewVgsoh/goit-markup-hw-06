@@ -52,6 +52,9 @@
         width: calc((100% - 72px) / 4);
         
     }
+    .features {
+        padding-bottom: 120px;
+    }
     .features-ul {
         width: 1128px;
         margin: 120px 0;
@@ -59,13 +62,18 @@
     .features-title {
         text-align: left;
     }
+    .work {
+        display: flex;
+    }
     .feat-icons {
         display: flex;
     }
     .team-participant {
         gap: 24px;
-        max-width: unset;
-        
-        
+        max-width: unset; 
+    }
+
+    .team {
+        padding: 120px 0;
     }
 }
