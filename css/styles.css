@@ -376,11 +376,11 @@ gap: 8px;
   color: #2e2f42;
 }
 .cust-logos {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
 }
 .cust-ul {
-  width: calc((100% - 120px) / 6);
+  width: calc((100%-16px) / 2);
   height: 88px;
 }
 .cust-link {
