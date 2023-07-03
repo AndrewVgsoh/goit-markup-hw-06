@@ -376,11 +376,13 @@ gap: 8px;
   color: #2e2f42;
 }
 .cust-logos {
-  /* display: flex; */
-  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px 16px;
+  margin: 0 auto;
 }
 .cust-ul {
-  width: calc((100%-16px) / 2);
+  width: calc((100% - 16px) / 2);
   height: 88px;
 }
 .cust-link {
@@ -401,6 +403,9 @@ gap: 8px;
 .cust-link:focus {
   border-color: #404bbf;
   color: #404BBF;
+}
+.cust-cont {
+  width: 100%;
 }
 footer {
   background-color: var(--dark);
