@@ -48,6 +48,12 @@
     .footer-div {
         max-width: 396px;
     }
+    .footer-div-one {
+        margin-bottom: 72px;
+    }
+    .footer-divs {
+        margin-bottom: 72px;
+    }
 }
 
 
@@ -157,6 +163,7 @@
         }
         .footer-div-one {
             align-items: start;
+            
         }
         .footer-div-two {
             align-items: start;
