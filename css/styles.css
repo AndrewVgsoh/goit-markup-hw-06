@@ -156,10 +156,9 @@ address {
   border: 0;
 }
 .open-menu-btn-svg {
-  fill: #2E2F42;
+  stroke: #2E2F42;
 }
 .mob-menu {
-  
   position: fixed;
   top: 0;
   z-index: 2;
@@ -171,8 +170,9 @@ address {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  display: none;
+  overflow: auto;
 }
+
 .close-menu-btn {
   display: flex;
   justify-content: center;
