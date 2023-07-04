@@ -1,4 +1,7 @@
 @media screen and (min-width: 320px) {
+    .ul-cont {
+        display: none;
+       }
     .container {
         max-width: 428px;
 
@@ -50,6 +53,22 @@
 
 
     @media screen and (min-width: 768px) {
+       header .site-logo {
+        margin-right: 120px;
+       }
+        .ul-cont {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 12px 0;
+       }
+       header .contacts {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.48px;
+       }
+       .ul-cont li {
+        width: 100%;
+       }
         .hero {
             padding: 112px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-img-tab.jpg);
@@ -155,6 +174,9 @@
         header .site-logo {
             margin-right: 76px;
         }
+        .ul-cont {
+            flex-wrap: nowrap;
+           }
         .hero {
             padding: 188px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-img.jpg);
