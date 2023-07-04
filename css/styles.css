@@ -82,7 +82,6 @@ header {
   line-height: 21px;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-right: 76px;
 }
 .logo-part {
   color: var(--primary-brand);
@@ -417,12 +416,13 @@ gap: 8px;
 footer {
   background-color: var(--dark);
   align-items: flex-start;
-  padding: 100px 0;
+  padding: 96px 0;
+  margin: 0 auto;
 }
 footer .site-logo {
   margin-bottom: 16px;
-  display: inline-block;
-  margin-right: 0;
+  display: inline-flex;
+  align-items: center;
 }
 .logo-white {
   color: var(--white);
@@ -442,14 +442,26 @@ footer .site-logo {
   font-style: normal;
 }
 .footer-div {
-  display: flex;
+  
   align-items: baseline;
 }
 .footer-div-one {
-  margin-right: 120px;
+  margin-bottom: 72px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .footer-div-two {
-  margin-right: 80px;
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-div-three {
+  margin-bottom: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .footer-div-two-text {
   font-weight: 500;
@@ -491,13 +503,11 @@ footer .site-logo {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
- .footer-form {
-  display: flex;
-  gap: 24px;
-  }
+
 .footer-input {
-  width: 264px;
+  width: 398px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -508,6 +518,7 @@ footer .site-logo {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 .footer-input::placeholder {
   color: #ffffff;
@@ -529,6 +540,7 @@ footer .site-logo {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
