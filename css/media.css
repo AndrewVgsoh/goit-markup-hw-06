@@ -1,10 +1,12 @@
 @media screen and (min-width: 320px) {
     .ul-cont {
         display: none;
-       }
-       .ul-nav {
+    }
+
+    .ul-nav {
         display: none;
-       }
+    }
+
     .container {
         max-width: 428px;
 
@@ -14,9 +16,10 @@
         max-width: 396px;
     }
 
-    .features-ul {
-        margin: 96px 16px;
-    }
+.features-ul {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
 
     .team-ul {
         max-width: 264px;
@@ -26,33 +29,188 @@
         justify-content: center;
         gap: 72px 0;
     }
-
-    .customers {
-        max-width: 396px;
-        margin: 0 auto;
+    .current::after {
+        display: none;
     }
+   
 
     .cust-ul {
 
         width: calc((100% - 16px) / 2);
     }
 
-    .customers {
-        max-width: 396px;
+   .mob-contacts {
+    font-size: 24px;
     }
-
+   .mob-soc-icon {
+    margin-right: 0;
+    }
+    .mob-soc-icons {
+        justify-content: space-between;
+    }
     .footer {
         width: 100%;
         justify-content: center;
     }
+
     .footer-div {
         max-width: 396px;
     }
-    .footer-div-one {
-        margin-bottom: 72px;
+
+
+}
+@media screen and (min-width: 428px){
+    .mob-contacts {
+        font-size: 35px;
+       }
+       .mob-soc-icon {
+        margin-right: 56px;
+        }
+        .mob-soc-icons {
+            justify-content: initial;
+        }
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    header .site-logo {
+        margin-right: 120px;
     }
+
+    .ul-cont {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 12px 0;
+    }
+
+    .ul-nav {
+        display: flex;
+    }
+
+    header .contacts {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.48px;
+    }
+    .current::after {
+        display: flex;
+    }
+    .ul-cont li {
+        width: 100%;
+    }
+
+    header address {
+        margin-left: 119px;
+    }
+
+    .hero {
+        padding: 112px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-img-tab.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-img-tab-2x.jpg);
+        }
+    }
+
+    .hero-title {
+        margin-bottom: 36px;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 768px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+
+    .features .feat-ul {
+        max-width: unset;
+        width: calc((100% - 24px) / 2);
+
+    }
+
+    .features-ul {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+
+    .features-title {
+        text-align: left;
+    }
+
+    .team-participant {
+        gap: 64px 24px;
+        max-width: unset;
+    }
+
+    .cust-ul {
+        width: calc((100% - 48px) / 3);
+
+    }
+
+    .cust-logos {
+        gap: 72px 24px;
+    }
+
+    .cust-cont {
+        max-width: 584px;
+    }
+
+    .footer {
+        width: 100%;
+
+    }
+
+    .footer-div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        width: 584px;
+        gap: 72px 24px;
+    }
+
     .footer-divs {
-        margin-bottom: 72px;
+        display: flex;
+        gap: 24px;
+
+    }
+
+    .footer-div-one {
+        align-items: start;
+
+    }
+
+    .footer-div-two {
+        align-items: start;
+    }
+
+    .footer-three-text {
+        text-align: left;
+    }
+
+    .footer-input {
+        width: 264px;
+    }
+
+    .footer-form {
+        display: flex;
+        gap: 24px;
+    }
+
+    .open-menu-btn {
+        display: none;
     }
 }
 
@@ -60,239 +218,117 @@
 
 
 
+@media screen and (min-width: 1158px) {
+    header .site-logo {
+        margin-right: 76px;
+    }
 
-    @media screen and (min-width: 768px) {
-       header .site-logo {
-        margin-right: 120px;
-       }
-        .ul-cont {
-        flex-wrap: wrap;
-        display: flex;
-        gap: 12px 0;
-       }
-       .ul-nav {
-        display: flex;
-       }
-       header .contacts {
-        font-size: 12px;
-        line-height: 14px;
-        letter-spacing: 0.48px;
-       }
-       .ul-cont li {
-        width: 100%;
-       }
-       header address {
-        margin-left: 119px;
-       }
+    header .contacts {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+
+    header address {
+        margin-left: 0;
+    }
+
+    .ul-cont {
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+
+    .hero {
+        padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-img.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
         .hero {
-            padding: 112px 0;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-img-tab.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-img-2x.jpg);
         }
+    }
 
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-            .hero {
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-img-tab-2x.jpg);
-            }
-        }
+    .hero-title {
+        margin-bottom: 42px;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+    }
 
-        .hero-title {
-            margin-bottom: 36px;
-            font-size: 56px;
-            line-height: 60px;
-            letter-spacing: 1.12px;
-        }
+    .container {
+        width: 100%;
+        max-width: 1160px;
+        margin: 0 auto;
+    }
 
-        .container {
-            width: 100%;
-            max-width: 768px;
-            padding: 0 16px;
-            margin: 0 auto;
-        }
+    .features .feat-ul {
+        max-width: unset;
+        width: calc((100% - 72px) / 4);
+    }
 
-        .features .feat-ul {
-            max-width: unset;
-            width: calc((100% - 24px) / 2);
-
-        }
-
-        .features-ul {
-            width: 100%;
-            margin: 96px 0;
-        }
-
-        .features-title {
-            text-align: left;
-        }
-
-        .team-participant {
-            gap: 64px 24px;
-            max-width: unset;
-        }
-
-        .cust-ul {
-            width: calc((100% - 48px) / 3);
-
-        }
-
-        .cust-logos {
-            gap: 72px 24px;
-        }
-
-        .customers {
-            max-width: 552px;
-        }
-
-        .footer {
-            width: 100%;
-            
-        }
-        .footer-div {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-           
-            width: 584px;
-            gap: 72px 24px;
-        }
-        .footer-divs {
-            display: flex;
-            gap: 24px;
-            
-        }
-        .footer-div-one {
-            align-items: start;
-            
-        }
-        .footer-div-two {
-            align-items: start;
-        }
-       
-        .footer-three-text {
-           text-align: left;
-        }
-        .footer-input {
-            width: 264px;
-        }
-       .footer-form {
-        display: flex;
-        gap: 24px;
-       }
-       .open-menu-btn {
-    display: none;
-       }
+    .features {
+        padding-bottom: 120px;
+        padding-top: 120px;
     }
 
 
+    .features-title {
+        text-align: left;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+    }
 
+    .work {
+        display: flex;
+    }
 
+    .feat-icons {
+        display: flex;
+    }
 
-    @media screen and (min-width: 1440px) {
-        header .site-logo {
-            margin-right: 76px;
-        }
-        header .contacts {
-            font-size: 16px;
-            line-height: 24px;
-            letter-spacing: 0.02em;
-           }
-           header address {
-            margin-left: 0;
-           }
-        .ul-cont {
-            flex-wrap: nowrap;
-            gap: 40px;
-           }
-        .hero {
-            padding: 188px 0;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-img.jpg);
-        }
+    .team-participant {
+        gap: 24px;
+        max-width: unset;
+    }
 
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-            .hero {
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-img-2x.jpg);
-            }
-        }
+    .team {
+        padding: 120px 0;
+    }
 
-        .hero-title {
-            margin-bottom: 42px;
-            font-size: 56px;
-            line-height: 60px;
-            letter-spacing: 1.12px;
-        }
+    .cust-ul {
+        width: calc((100% - 120px) / 6);
+    }
 
-        .container {
-            width: 100%;
-            max-width: 1160px;
-            margin: 0 auto;
-        }
+    .cust-logos {
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
 
-        .features .feat-ul {
-            max-width: unset;
-            width: calc((100% - 72px) / 4);
-        }
+   
 
-        .features {
-            padding-bottom: 120px;
-        }
+    .footer {
+        width: 100%;
+    }
 
-        .features-ul {
-            width: 1128px;
-            margin: 120px 0;
-        }
-
-        .features-title {
-            text-align: left;
-        }
-
-        .work {
-            display: flex;
-        }
-
-        .feat-icons {
-            display: flex;
-        }
-
-        .team-participant {
-            gap: 24px;
-            max-width: unset;
-        }
-
-        .team {
-            padding: 120px 0;
-        }
-
-        .cust-ul {
-            width: calc((100% - 120px) / 6);
-        }
-
-        .cust-logos {
-            width: 100%;
-            flex-wrap: nowrap;
-            gap: 24px;
-        }
-
-        .customers {
-            max-width: 1128px;
-        }
-
-        .footer {
-            width: 100%;
-        }
-       .footer-div {
+    .footer-div {
         width: 1440px;
         flex-wrap: nowrap;
         gap: 0;
-       }
-        .footer-form {
-            display: flex;
-            gap: 24px;
-        }
-       .footer-divs {
+    }
+
+    .footer-form {
+        display: flex;
+        gap: 24px;
+    }
+
+    .footer-divs {
         gap: 120px;
         margin-right: 80px;
-       }
     }
+}
